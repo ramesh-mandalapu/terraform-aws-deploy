@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_terraform_aws_deploy_1699654495574-pr-trigger-input-set
+  identifier: Build_terraform_aws_deploy_1699654495574prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_terraform_aws_deploy_1699654495574
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
